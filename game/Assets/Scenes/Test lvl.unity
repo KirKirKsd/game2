@@ -199,7 +199,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.0031446815, y: 0.0031446815, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -441,7 +441,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 50299053}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3a994f0acba870142808ffaf04debef7, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -869,4 +869,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecfe1ddfd80fad440a0e074301c57013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectAxis: 0
   speed: 10
+  addForce: 7
+  lookAtCursor: 0
+  leftButton: 97
+  rightButton: 100
+  upButton: 119
+  downButton: 115
+  addForceButton: 32
+  isFacingRight: 1
